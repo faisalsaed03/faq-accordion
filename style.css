@@ -1,0 +1,110 @@
+/* styles.css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+:root{
+    --light-pink : #F8EEFF;
+    --dark-purple : #301534;
+    --grayish-purple : #8B6990;
+    --white : #FFFFFF;
+
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    background-image: url("imgs/background.png");
+    background-color: var(--light-pink);
+    background-repeat: no-repeat;
+    font-family: 'Work Sans','sans-serif';
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+button:hover{
+    color: purple;
+
+}
+
+.container {
+    background-color: white;
+    max-width: 800px;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+
+
+}
+
+.header {
+    display: flex;
+    gap : 2rem  
+
+}
+
+.minus-icon{
+    display: none;
+}
+
+.accordion-description{
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: max-height 200ms ease;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
